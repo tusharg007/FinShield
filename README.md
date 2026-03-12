@@ -54,7 +54,7 @@ FinShield is a production-ready financial fraud detection system that identifies
 
 ## 🚀 Live Demo
 
-**Try it live: [YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)**
+**Try it live: [YOUR_STREAMLIT_URL](https://finshield-e7nexmopxknwbv4nvjehdn.streamlit.app/)**
 
 The app has 4 pages:
 
