@@ -1,0 +1,10 @@
+{
+  "total_transactions": 50000,
+  "total_fraud": 1675,
+  "fraud_rate_pct": 3.35,
+  "total_fraud_amount": 7435349.11,
+  "ml_flagged": 1675,
+  "best_model": "Logistic Regression",
+  "best_roc_auc": 1.0,
+  "best_f1": 1.0
+}
