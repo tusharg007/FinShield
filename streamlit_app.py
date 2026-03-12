@@ -405,4 +405,9 @@ elif page == "🤖 Model Performance":
     if df is not None:
         st.divider()
         st.markdown("#### Fraud Probability Distribution")
-        st.bar_chart(pd.cut(df["ml_fraud_probability"], bins=20).value_counts().sort_index())
+        prob_bins = pd.cut(df["ml_fraud_probability"], bins=20).value_counts().sort_index()
+        prob_df = pd.DataFrame({
+            "Probability Range": [str(i) for i in prob_bins.index],
+            "Count": prob_bins.values
+        })
+        st.bar_chart(prob_df.set_index("Probability Range"))
