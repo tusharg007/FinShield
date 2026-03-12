@@ -9,7 +9,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Star_Schema-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**[🚀 Live Demo](YOUR_STREAMLIT_URL)**
+**[🚀 Live Demo](https://finshield-e7nexmopxknwbv4nvjehdn.streamlit.app/)**
 
 *End-to-end financial fraud detection platform — ML pipeline, SQL warehouse, Power BI dashboard, REST API*
 
